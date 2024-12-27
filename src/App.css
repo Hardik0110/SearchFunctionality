@@ -1,0 +1,143 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.region-button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.region-button:hover {
+  background-color: #f0f0f0;
+}
+
+.header input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.header select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.country-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.country-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: 200px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.country-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.country-card img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.country-card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.country-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.country-detail {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.country-detail h2 {
+  margin: 0 0 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.country-detail p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.country-detail img {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.country-detail h4 {
+  margin: 20px 0 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.region-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.region-list button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.region-list button:hover {
+  background-color: #b02b2b;
+}
